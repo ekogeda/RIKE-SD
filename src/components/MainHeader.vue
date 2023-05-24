@@ -463,11 +463,10 @@ const breakpoints = {
               </div>
             </div>
           </div>
-
-          <div class="feature-divider"></div>
         </div>
-
       </div>
+
+      <div class="feature-divider d-none d-sm-block"></div>
 
       <div class="metrics py-5">
         <div class="container">
