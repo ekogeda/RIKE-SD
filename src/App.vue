@@ -1,9 +1,7 @@
 <template>
-  <MainHeader />
+  <router-view></router-view>
 </template>
 
-<script setup>
-import MainHeader from './components/MainHeader.vue';
-</script>
+<script setup></script>
 
 <style></style>
