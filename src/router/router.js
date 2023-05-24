@@ -12,16 +12,16 @@ const routes = [
     name: "Home",
     component: HomePage,
     meta: {
-      title: "Documents | ToNote",
+      title: "Documents | RIKE-SD",
       requiresAuth: true,
       metaTags: [
         {
           name: "description",
-          content: "The document dashboard page of ToNote.",
+          content: "The document dashboard page of RIKE-SD.",
         },
         {
           property: "og:description",
-          content: "The document dashboard page of ToNote.",
+          content: "The document dashboard page of RIKE-SD.",
         },
       ],
     },
@@ -31,15 +31,15 @@ const routes = [
     path: "/:catchAll(.*)",
     component: () => import("@/components/NotFound.vue"),
     meta: {
-      title: "Error 404 | ToNote",
+      title: "Error 404 | RIKE-SD",
       metaTags: [
         {
           name: "description",
-          content: "The error 404 page of ToNote.",
+          content: "The error 404 page of RIKE-SD.",
         },
         {
           property: "og:description",
-          content: "The error 404 page of ToNote.",
+          content: "The error 404 page of RIKE-SD.",
         },
       ],
     },
