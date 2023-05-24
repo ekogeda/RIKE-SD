@@ -457,6 +457,14 @@ const breakpoints = {
   transform: translate(-50%, -50%);
 }
 
+.floater .card:hover {
+  background: #82D145 !important;
+}
+
+.floater .card:hover p {
+  color: #fff !important;
+}
+
 .social-media a {
   width: 35px;
   height: 35px;
