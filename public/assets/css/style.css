@@ -363,13 +363,6 @@ body {
  * MAIN *
  ********/
 
-/* .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-} */
-
 .metrics {
   background: #F9FAFB;
 }
@@ -423,7 +416,7 @@ body {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 72px;
   /* identical to box height, or 120% */
 

@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const HomePage = () =>
   import(
-    /* webpackChunkName: "landing-page" */ "@/views/HomePage.vue"
+    /* webpackChunkName: "home-page" */ "@/views/HomePage.vue"
   );
 
 const routes = [
@@ -12,16 +12,16 @@ const routes = [
     name: "Home",
     component: HomePage,
     meta: {
-      title: "Documents | RIKE-SD",
+      title: "Home | RIKE-SD",
       requiresAuth: true,
       metaTags: [
         {
           name: "description",
-          content: "The document dashboard page of RIKE-SD.",
+          content: "Research for Impact, Knowledge, Economy & Sustainable Development.",
         },
         {
           property: "og:description",
-          content: "The document dashboard page of RIKE-SD.",
+          content: "Research for Impact, Knowledge, Economy & Sustainable Development.",
         },
       ],
     },
