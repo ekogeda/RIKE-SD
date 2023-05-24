@@ -132,7 +132,7 @@ const breakpoints = {
     </div>
 
     <main class="main">
-      <section class="client" style="background-color:#eee;margin-bottom: 4rem;">
+      <section style="background-color:#eee;margin-bottom: 4rem;">
         <div class="container">
           <div class="py-3">
             <Carousel v-bind="settings" :breakpoints="breakpoints" :wrap-around="true" :autoplay="2000">
@@ -147,7 +147,7 @@ const breakpoints = {
       </section>
 
       <div class="container marketing">
-        <div class="row gx-5 about-section">
+        <div class="row gx-4 about-section">
           <div class="col-lg-7 col-md-6 order-md-2">
             <div class="about-section-content m-auto">
               <p class="s2b-text-warning-dark">Our Mission</p>
@@ -290,7 +290,7 @@ const breakpoints = {
 
         <div class="feature-divider"></div>
 
-        <div class="row gx-5 about-section">
+        <div class="row gx-4 about-section">
           <div class="col-lg-7 col-md-6 order-md-2">
             <div class="about-section-content m-auto">
               <p class="s2b-text-warning-dark">Our Vision</p>
