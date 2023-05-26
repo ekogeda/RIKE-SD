@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      <p class="text-center my-4">Copyright (c) 2023 S2B All rights reserved</p>
+      <p class="text-center my-4">Copyright &copy; {{ new Date().getFullYear() }} S2B All rights reserved</p>
     </div>
   </footer>
 </template>
